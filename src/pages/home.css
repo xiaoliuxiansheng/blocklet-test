@@ -1,0 +1,62 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(180deg, #422E7E 1%, #7F55DA 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.user {
+  width: 90%;
+  display: flex;
+  border-radius: 30px;
+  opacity: 0.6;
+  padding: 10%;
+  flex-direction: column;
+  background: #37266B url('../assets/background.png') center center no-repeat;
+  background-size: 100% 100%;
+}
+.user-title {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 42px;
+  color: #FFFFFF;
+  position: relative;
+}
+
+.user-title_tip {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.user-form {
+  margin-top: 30px;
+}
+
+.user-title-switch {
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
+.user-form-button {
+  background: #37266B;
+  box-shadow: 0 0 25px 0 #7F55DA;
+}
+
+.user-title-switch.ant-switch-checked {
+  background: #37266B;
+}
+
+.user-title-switch:hover .ant-switch-inner {
+  background-color: #37266B;
+}
